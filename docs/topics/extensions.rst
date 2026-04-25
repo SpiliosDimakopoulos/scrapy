@@ -262,10 +262,9 @@ CLOSESPIDER_TIMEOUT
 
 Default: ``0``
 
-An integer which specifies a number of seconds. If the spider remains open for
-more than that number of seconds, it will be automatically closed with the
-reason ``closespider_timeout``. If zero (or non set), spiders won't be closed by
-timeout.
+If the spider remains open for more than this number of seconds, it will be
+automatically closed with the reason ``closespider_timeout``. If zero (or non
+set), spiders won't be closed by timeout.
 
 .. setting:: CLOSESPIDER_TIMEOUT_NO_ITEM
 
